@@ -1,0 +1,160 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    min-width: 300px;
+}
+
+.flex-container .sbtn {
+    width: 20%;
+    min-width: 120px;
+    max-width: 200px;
+    height: 120px;        
+    margin: 5px;
+    text-align: center;
+    line-height: 120px;
+    font-size: 30px; 
+    font-weight: bold;
+    color: black;   
+}
+
+.text-center {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.green {
+    background-color: rgba(40, 198, 40, 0.495);
+    border-radius: 60px 10px 10px 10px; 
+}
+
+.ongreen:hover {
+    background-color: rgb(0, 255, 0);
+}
+
+
+
+.red {
+    background-color: rgba(188, 31, 31, 0.429);
+    border-radius: 10px 60px 10px 10px; 
+}
+
+.onred:hover {
+    background-color: rgb(255, 0, 0); 
+}
+
+.yellow {
+    background-color: rgba(190, 190, 33, 0.382);
+    border-radius: 10px 10px 10px 60px; 
+}
+
+.onyellow:hover {
+    background-color: rgb(255, 255, 0);
+}
+.blue {
+    background-color: rgba(37, 37, 214, 0.45);
+    border-radius: 10px 10px 60px 10px; 
+}
+
+.onblue:hover {
+    background-color: rgb(0, 0, 255);
+}
+.btns {    
+    display: block;
+    width: 110px;
+    margin: 20px;        
+    padding: 18px;    
+    border-radius: 10px;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+a{
+    text-decoration:none;
+    color: black;
+}
+a:hover{
+    text-decoration:none;
+    color: black;
+}
+.btngreen{
+    border: 1px solid rgb(155, 155, 155);
+    background-color: rgb(127, 218, 127);
+}
+.btnblue{
+    border: 1px solid rgb(255, 255, 255);
+    background-color: #2683fc92
+}
+.btnyellow{
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgba(190, 190, 33, 0.382);
+}
+.btnred{
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgba(188, 31, 31, 0.429); 
+}
+
+.btngreenon{
+    border: 1px solid rgb(155, 155, 155);
+    background-color: rgb(127, 218, 127);
+}
+.btnblueon{
+    border: 1px solid rgb(255, 255, 255);
+    background-color: #147aff
+}
+.btnyellowon{
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(255, 255, 0);
+}
+.btnredon{
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(255, 0, 0);
+}
+
+.btngreen:hover {
+    background-color: aquamarine;
+}
+.table_factura {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td{
+    color: white;
+}
+.modal-container{
+    z-index: 1000;
+    background: rgba(0, 0, 0, 0.5);
+}
+.modal-title{
+    color: black;
+}
+.modal-body {
+    color: black;
+}
+.modal-footer {
+    color: black;
+    font-weight: 500;
+    font-size: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.75rem;
+    border-top: 1px solid #dee2e6;
+    border-bottom-right-radius: calc(0.3rem - 1px);
+    border-bottom-left-radius: calc(0.3rem - 1px);
+}
+.score{
+    display: flex;
+    flex-direction: row;
+}
